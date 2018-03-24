@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "lerna": "^2.8.0",
+    "lerna-wizard": "^1.0.9",
+    "rimraf": "^2.6.2",
+    "yarn": "^1.3.2"
+  },
+  "name": "yarn-sample-app",
+  "version": "0.01",
+  "description": "yarn sample app",
+  "main": "index.js",
+  "repository": "https://github.com/ggkannan/yarn-sample-app.git",
+  "author": "ggkannan <ggkannan@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "yarn": "^1.3.2",
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "cleanup": "yarn cleanup:build && yarn cleanup:caches && yarn cleanup:deps",
+    "cleanup:build": "rimraf packages/*/dist && rimraf packages/*/tmp",
+    "cleanup:deps": "lerna clean --yes && rimraf node_modules",
+    "cleanup:caches": "yarn cache clean",
+    "lerna": "lerna",
+    "lerna-wizard": "lerna-wizard",
+    "postinstall": "yarn bootstrap",
+    "start": "cd packages/sample1 && yarn start",
+    "start:debug": "cd packages/sample1 && node --inspect ./node_modules/.bin/ember server"
+  },
+  "dependencies": {}
+}

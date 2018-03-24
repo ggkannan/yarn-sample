@@ -1,0 +1,534 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   args: [] }
+2 verbose rootPath G:\project\yarn-sample-app
+3 info version 2.8.0
+4 silly existsSync G:\project\yarn-sample-app\VERSION
+5 info versioning independent
+6 silly initialize attempt
+7 silly npmConfig { registry: undefined,
+7 silly npmConfig   npmClient: 'yarn',
+7 silly npmConfig   npmClientArgs: undefined,
+7 silly npmConfig   mutex: 'network:42424' }
+8 silly initialize success
+9 silly execute attempt
+10 info Bootstrapping 2 packages
+11 info lifecycle preinstall
+12 silly runScript preinstall child-app
+13 silly child-app
+14 silly runScript preinstall sample1
+15 silly sample1
+16 silly hasDependencyInstalled child-app broccoli-asset-rev
+17 silly dependencyIsSatisfied [ 'broccoli-asset-rev',
+17 silly dependencyIsSatisfied   '^2.4.5',
+17 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+18 verbose dependencyIsSatisfied broccoli-asset-rev true
+19 silly hasDependencyInstalled sample1 broccoli-asset-rev
+20 silly dependencyIsSatisfied [ 'broccoli-asset-rev',
+20 silly dependencyIsSatisfied   '^2.4.5',
+20 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+21 verbose dependencyIsSatisfied broccoli-asset-rev true
+22 silly hasDependencyInstalled child-app ember-ajax
+23 silly dependencyIsSatisfied [ 'ember-ajax',
+23 silly dependencyIsSatisfied   '^3.0.0',
+23 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+24 verbose dependencyIsSatisfied ember-ajax true
+25 silly hasDependencyInstalled sample1 ember-ajax
+26 silly dependencyIsSatisfied [ 'ember-ajax',
+26 silly dependencyIsSatisfied   '^3.0.0',
+26 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+27 verbose dependencyIsSatisfied ember-ajax true
+28 silly hasDependencyInstalled child-app ember-cli
+29 silly dependencyIsSatisfied [ 'ember-cli',
+29 silly dependencyIsSatisfied   '~2.16.2',
+29 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+30 verbose dependencyIsSatisfied ember-cli true
+31 silly hasDependencyInstalled sample1 ember-cli
+32 silly dependencyIsSatisfied [ 'ember-cli',
+32 silly dependencyIsSatisfied   '~2.16.2',
+32 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+33 verbose dependencyIsSatisfied ember-cli true
+34 silly hasDependencyInstalled child-app ember-cli-dependency-checker
+35 silly dependencyIsSatisfied [ 'ember-cli-dependency-checker',
+35 silly dependencyIsSatisfied   '^2.0.0',
+35 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+36 verbose dependencyIsSatisfied ember-cli-dependency-checker true
+37 silly hasDependencyInstalled sample1 ember-cli-dependency-checker
+38 silly dependencyIsSatisfied [ 'ember-cli-dependency-checker',
+38 silly dependencyIsSatisfied   '^2.0.0',
+38 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+39 verbose dependencyIsSatisfied ember-cli-dependency-checker true
+40 silly hasDependencyInstalled child-app ember-cli-eslint
+41 silly dependencyIsSatisfied [ 'ember-cli-eslint',
+41 silly dependencyIsSatisfied   '^4.0.0',
+41 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+42 verbose dependencyIsSatisfied ember-cli-eslint true
+43 silly hasDependencyInstalled sample1 ember-cli-eslint
+44 silly dependencyIsSatisfied [ 'ember-cli-eslint',
+44 silly dependencyIsSatisfied   '^4.0.0',
+44 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+45 verbose dependencyIsSatisfied ember-cli-eslint true
+46 silly hasDependencyInstalled child-app ember-cli-htmlbars-inline-precompile
+47 silly dependencyIsSatisfied [ 'ember-cli-htmlbars-inline-precompile',
+47 silly dependencyIsSatisfied   '^1.0.0',
+47 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+48 verbose dependencyIsSatisfied ember-cli-htmlbars-inline-precompile true
+49 silly hasDependencyInstalled sample1 ember-cli-htmlbars-inline-precompile
+50 silly dependencyIsSatisfied [ 'ember-cli-htmlbars-inline-precompile',
+50 silly dependencyIsSatisfied   '^1.0.0',
+50 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+51 verbose dependencyIsSatisfied ember-cli-htmlbars-inline-precompile true
+52 silly hasDependencyInstalled child-app ember-cli-inject-live-reload
+53 silly dependencyIsSatisfied [ 'ember-cli-inject-live-reload',
+53 silly dependencyIsSatisfied   '^1.4.1',
+53 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+54 verbose dependencyIsSatisfied ember-cli-inject-live-reload true
+55 silly hasDependencyInstalled sample1 ember-cli-inject-live-reload
+56 silly dependencyIsSatisfied [ 'ember-cli-inject-live-reload',
+56 silly dependencyIsSatisfied   '^1.4.1',
+56 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+57 verbose dependencyIsSatisfied ember-cli-inject-live-reload true
+58 silly hasDependencyInstalled child-app ember-cli-mirage
+59 silly dependencyIsSatisfied [ 'ember-cli-mirage',
+59 silly dependencyIsSatisfied   '^0.4.1',
+59 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+60 verbose dependencyIsSatisfied ember-cli-mirage true
+61 silly hasDependencyInstalled sample1 ember-cli-mirage
+62 silly dependencyIsSatisfied [ 'ember-cli-mirage',
+62 silly dependencyIsSatisfied   '^0.4.1',
+62 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+63 verbose dependencyIsSatisfied ember-cli-mirage true
+64 silly hasDependencyInstalled child-app ember-cli-qunit
+65 silly dependencyIsSatisfied [ 'ember-cli-qunit',
+65 silly dependencyIsSatisfied   '^4.0.0',
+65 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+66 verbose dependencyIsSatisfied ember-cli-qunit true
+67 silly hasDependencyInstalled sample1 ember-cli-qunit
+68 silly dependencyIsSatisfied [ 'ember-cli-qunit',
+68 silly dependencyIsSatisfied   '^4.0.0',
+68 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+69 verbose dependencyIsSatisfied ember-cli-qunit true
+70 silly hasDependencyInstalled child-app ember-cli-sass
+71 silly dependencyIsSatisfied [ 'ember-cli-sass',
+71 silly dependencyIsSatisfied   '^7.1.4',
+71 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+72 verbose dependencyIsSatisfied ember-cli-sass true
+73 silly hasDependencyInstalled sample1 ember-cli-sass
+74 silly dependencyIsSatisfied [ 'ember-cli-sass',
+74 silly dependencyIsSatisfied   '^7.1.4',
+74 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+75 verbose dependencyIsSatisfied ember-cli-sass true
+76 silly hasDependencyInstalled child-app ember-cli-shims
+77 silly dependencyIsSatisfied [ 'ember-cli-shims',
+77 silly dependencyIsSatisfied   '^1.1.0',
+77 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+78 verbose dependencyIsSatisfied ember-cli-shims true
+79 silly hasDependencyInstalled sample1 ember-cli-shims
+80 silly dependencyIsSatisfied [ 'ember-cli-shims',
+80 silly dependencyIsSatisfied   '^1.1.0',
+80 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+81 verbose dependencyIsSatisfied ember-cli-shims true
+82 silly hasDependencyInstalled child-app ember-cli-sri
+83 silly dependencyIsSatisfied [ 'ember-cli-sri',
+83 silly dependencyIsSatisfied   '^2.1.0',
+83 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+84 verbose dependencyIsSatisfied ember-cli-sri true
+85 silly hasDependencyInstalled sample1 ember-cli-sri
+86 silly dependencyIsSatisfied [ 'ember-cli-sri',
+86 silly dependencyIsSatisfied   '^2.1.0',
+86 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+87 verbose dependencyIsSatisfied ember-cli-sri true
+88 silly hasDependencyInstalled child-app ember-cli-uglify
+89 silly dependencyIsSatisfied [ 'ember-cli-uglify',
+89 silly dependencyIsSatisfied   '^2.0.0',
+89 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+90 verbose dependencyIsSatisfied ember-cli-uglify true
+91 silly hasDependencyInstalled sample1 ember-cli-uglify
+92 silly dependencyIsSatisfied [ 'ember-cli-uglify',
+92 silly dependencyIsSatisfied   '^2.0.0',
+92 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+93 verbose dependencyIsSatisfied ember-cli-uglify true
+94 silly hasDependencyInstalled child-app ember-disable-prototype-extensions
+95 silly dependencyIsSatisfied [ 'ember-disable-prototype-extensions',
+95 silly dependencyIsSatisfied   '^1.1.2',
+95 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+96 verbose dependencyIsSatisfied ember-disable-prototype-extensions true
+97 silly hasDependencyInstalled child-app ember-engines
+98 silly dependencyIsSatisfied [ 'ember-engines',
+98 silly dependencyIsSatisfied   '^0.5.14',
+98 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+99 verbose dependencyIsSatisfied ember-engines true
+100 silly hasDependencyInstalled sample1 ember-engines
+101 silly dependencyIsSatisfied [ 'ember-engines',
+101 silly dependencyIsSatisfied   '^0.5.14',
+101 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+102 verbose dependencyIsSatisfied ember-engines true
+103 silly hasDependencyInstalled child-app ember-export-application-global
+104 silly dependencyIsSatisfied [ 'ember-export-application-global',
+104 silly dependencyIsSatisfied   '^2.0.0',
+104 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+105 verbose dependencyIsSatisfied ember-export-application-global true
+106 silly hasDependencyInstalled sample1 ember-export-application-global
+107 silly dependencyIsSatisfied [ 'ember-export-application-global',
+107 silly dependencyIsSatisfied   '^2.0.0',
+107 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+108 verbose dependencyIsSatisfied ember-export-application-global true
+109 silly hasDependencyInstalled child-app ember-load-initializers
+110 silly dependencyIsSatisfied [ 'ember-load-initializers',
+110 silly dependencyIsSatisfied   '^1.0.0',
+110 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+111 verbose dependencyIsSatisfied ember-load-initializers true
+112 silly hasDependencyInstalled sample1 ember-load-initializers
+113 silly dependencyIsSatisfied [ 'ember-load-initializers',
+113 silly dependencyIsSatisfied   '^1.0.0',
+113 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+114 verbose dependencyIsSatisfied ember-load-initializers true
+115 silly hasDependencyInstalled child-app ember-resolver
+116 silly dependencyIsSatisfied [ 'ember-resolver',
+116 silly dependencyIsSatisfied   '^4.0.0',
+116 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+117 verbose dependencyIsSatisfied ember-resolver true
+118 silly hasDependencyInstalled sample1 ember-resolver
+119 silly dependencyIsSatisfied [ 'ember-resolver',
+119 silly dependencyIsSatisfied   '^4.0.0',
+119 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+120 verbose dependencyIsSatisfied ember-resolver true
+121 silly hasDependencyInstalled child-app ember-source
+122 silly dependencyIsSatisfied [ 'ember-source',
+122 silly dependencyIsSatisfied   '~2.16.0',
+122 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+123 verbose dependencyIsSatisfied ember-source true
+124 silly hasDependencyInstalled sample1 ember-source
+125 silly dependencyIsSatisfied [ 'ember-source',
+125 silly dependencyIsSatisfied   '~2.16.0',
+125 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+126 verbose dependencyIsSatisfied ember-source true
+127 silly hasDependencyInstalled child-app loader.js
+128 silly dependencyIsSatisfied [ 'loader.js',
+128 silly dependencyIsSatisfied   '^4.2.3',
+128 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+129 verbose dependencyIsSatisfied loader.js true
+130 silly hasDependencyInstalled sample1 loader.js
+131 silly dependencyIsSatisfied [ 'loader.js',
+131 silly dependencyIsSatisfied   '^4.2.3',
+131 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+132 verbose dependencyIsSatisfied loader.js true
+133 silly hasDependencyInstalled child-app ember-cli-babel
+134 silly dependencyIsSatisfied [ 'ember-cli-babel',
+134 silly dependencyIsSatisfied   '^6.6.0',
+134 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+135 verbose dependencyIsSatisfied ember-cli-babel true
+136 silly hasDependencyInstalled sample1 ember-cli-babel
+137 silly dependencyIsSatisfied [ 'ember-cli-babel',
+137 silly dependencyIsSatisfied   '^6.6.0',
+137 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+138 verbose dependencyIsSatisfied ember-cli-babel true
+139 silly hasDependencyInstalled child-app ember-cli-htmlbars
+140 silly dependencyIsSatisfied [ 'ember-cli-htmlbars',
+140 silly dependencyIsSatisfied   '^2.0.1',
+140 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\child-app\\node_modules' ]
+141 verbose dependencyIsSatisfied ember-cli-htmlbars true
+142 silly hasDependencyInstalled sample1 ember-cli-htmlbars
+143 silly dependencyIsSatisfied [ 'ember-cli-htmlbars',
+143 silly dependencyIsSatisfied   '^2.0.1',
+143 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+144 verbose dependencyIsSatisfied ember-cli-htmlbars true
+145 silly hasDependencyInstalled sample1 babel-plugin-transform-decorators-legacy
+146 silly dependencyIsSatisfied [ 'babel-plugin-transform-decorators-legacy',
+146 silly dependencyIsSatisfied   '^1.3.4',
+146 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+147 verbose dependencyIsSatisfied babel-plugin-transform-decorators-legacy true
+148 silly hasDependencyInstalled sample1 ember-cli-app-version
+149 silly dependencyIsSatisfied [ 'ember-cli-app-version',
+149 silly dependencyIsSatisfied   '^3.0.0',
+149 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+150 verbose dependencyIsSatisfied ember-cli-app-version true
+151 silly hasDependencyInstalled sample1 ember-data
+152 silly dependencyIsSatisfied [ 'ember-data',
+152 silly dependencyIsSatisfied   '~2.16.2',
+152 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+153 verbose dependencyIsSatisfied ember-data true
+154 silly hasDependencyInstalled sample1 ember-welcome-page
+155 silly dependencyIsSatisfied [ 'ember-welcome-page',
+155 silly dependencyIsSatisfied   '^3.0.0',
+155 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+156 verbose dependencyIsSatisfied ember-welcome-page true
+157 silly hasDependencyInstalled sample1 child-app
+158 silly dependencyIsSatisfied [ 'child-app',
+158 silly dependencyIsSatisfied   '0.0.1',
+158 silly dependencyIsSatisfied   'G:\\project\\yarn-sample-app\\packages\\sample1\\node_modules' ]
+159 verbose dependencyIsSatisfied child-app false
+160 silly root dependencies []
+161 silly leaf dependencies {
+161 silly leaf dependencies   "child-app": [
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "broccoli-asset-rev@^2.4.5",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-ajax@^3.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli@~2.16.2",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-dependency-checker@^2.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-eslint@^4.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-htmlbars-inline-precompile@^1.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-inject-live-reload@^1.4.1",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-mirage@^0.4.1",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-qunit@^4.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-sass@^7.1.4",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-shims@^1.1.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-sri@^2.1.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-uglify@^2.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-disable-prototype-extensions@^1.1.2",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-engines@^0.5.14",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-export-application-global@^2.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-load-initializers@^1.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-resolver@^4.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-source@~2.16.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "loader.js@^4.2.3",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-babel@^6.6.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-htmlbars@^2.0.1",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     }
+161 silly leaf dependencies   ],
+161 silly leaf dependencies   "sample1": [
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "broccoli-asset-rev@^2.4.5",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-ajax@^3.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli@~2.16.2",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-dependency-checker@^2.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-eslint@^4.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-htmlbars-inline-precompile@^1.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-inject-live-reload@^1.4.1",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-mirage@^0.4.1",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-qunit@^4.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-sass@^7.1.4",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-shims@^1.1.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-sri@^2.1.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-uglify@^2.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-engines@^0.5.14",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-export-application-global@^2.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-load-initializers@^1.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-resolver@^4.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-source@~2.16.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "loader.js@^4.2.3",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-babel@^6.6.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-htmlbars@^2.0.1",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "babel-plugin-transform-decorators-legacy@^1.3.4",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-cli-app-version@^3.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-data@~2.16.2",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "ember-welcome-page@^3.0.0",
+161 silly leaf dependencies       "isSatisfied": true
+161 silly leaf dependencies     },
+161 silly leaf dependencies     {
+161 silly leaf dependencies       "dependency": "child-app@0.0.1",
+161 silly leaf dependencies       "isSatisfied": false
+161 silly leaf dependencies     }
+161 silly leaf dependencies   ]
+161 silly leaf dependencies }
+162 info Installing external dependencies
+163 verbose actions 1 actions, concurrency 4
+164 silly installInDir sample1 [ 'broccoli-asset-rev@^2.4.5',
+164 silly installInDir   'ember-ajax@^3.0.0',
+164 silly installInDir   'ember-cli@~2.16.2',
+164 silly installInDir   'ember-cli-dependency-checker@^2.0.0',
+164 silly installInDir   'ember-cli-eslint@^4.0.0',
+164 silly installInDir   'ember-cli-htmlbars-inline-precompile@^1.0.0',
+164 silly installInDir   'ember-cli-inject-live-reload@^1.4.1',
+164 silly installInDir   'ember-cli-mirage@^0.4.1',
+164 silly installInDir   'ember-cli-qunit@^4.0.0',
+164 silly installInDir   'ember-cli-sass@^7.1.4',
+164 silly installInDir   'ember-cli-shims@^1.1.0',
+164 silly installInDir   'ember-cli-sri@^2.1.0',
+164 silly installInDir   'ember-cli-uglify@^2.0.0',
+164 silly installInDir   'ember-engines@^0.5.14',
+164 silly installInDir   'ember-export-application-global@^2.0.0',
+164 silly installInDir   'ember-load-initializers@^1.0.0',
+164 silly installInDir   'ember-resolver@^4.0.0',
+164 silly installInDir   'ember-source@~2.16.0',
+164 silly installInDir   'loader.js@^4.2.3',
+164 silly installInDir   'ember-cli-babel@^6.6.0',
+164 silly installInDir   'ember-cli-htmlbars@^2.0.1',
+164 silly installInDir   'babel-plugin-transform-decorators-legacy@^1.3.4',
+164 silly installInDir   'ember-cli-app-version@^3.0.0',
+164 silly installInDir   'ember-data@~2.16.2',
+164 silly installInDir   'ember-welcome-page@^3.0.0',
+164 silly installInDir   'child-app@0.0.1' ]
+165 silly installInDir backup G:\project\yarn-sample-app\packages\sample1\package.json
+166 silly rename [ 'G:\\project\\yarn-sample-app\\packages\\sample1\\package.json',
+166 silly rename   'G:\\project\\yarn-sample-app\\packages\\sample1\\package.json.lerna_backup' ]
+167 silly installInDir writing tempJson { dependencies:
+167 silly installInDir    { 'broccoli-asset-rev': '^2.4.5',
+167 silly installInDir      'ember-ajax': '^3.0.0',
+167 silly installInDir      'ember-cli': '~2.16.2',
+167 silly installInDir      'ember-cli-dependency-checker': '^2.0.0',
+167 silly installInDir      'ember-cli-eslint': '^4.0.0',
+167 silly installInDir      'ember-cli-htmlbars-inline-precompile': '^1.0.0',
+167 silly installInDir      'ember-cli-inject-live-reload': '^1.4.1',
+167 silly installInDir      'ember-cli-mirage': '^0.4.1',
+167 silly installInDir      'ember-cli-qunit': '^4.0.0',
+167 silly installInDir      'ember-cli-sass': '^7.1.4',
+167 silly installInDir      'ember-cli-shims': '^1.1.0',
+167 silly installInDir      'ember-cli-sri': '^2.1.0',
+167 silly installInDir      'ember-cli-uglify': '^2.0.0',
+167 silly installInDir      'ember-engines': '^0.5.14',
+167 silly installInDir      'ember-export-application-global': '^2.0.0',
+167 silly installInDir      'ember-load-initializers': '^1.0.0',
+167 silly installInDir      'ember-resolver': '^4.0.0',
+167 silly installInDir      'ember-source': '~2.16.0',
+167 silly installInDir      'loader.js': '^4.2.3',
+167 silly installInDir      'ember-cli-babel': '^6.6.0',
+167 silly installInDir      'ember-cli-htmlbars': '^2.0.1',
+167 silly installInDir      'babel-plugin-transform-decorators-legacy': '^1.3.4',
+167 silly installInDir      'ember-cli-app-version': '^3.0.0',
+167 silly installInDir      'ember-data': '~2.16.2',
+167 silly installInDir      'ember-welcome-page': '^3.0.0',
+167 silly installInDir      'child-app': '0.0.1' } }
+168 silly getExecOpts { cwd: 'G:\\project\\yarn-sample-app\\packages\\sample1' }
+169 silly installInDir [ 'yarn',
+169 silly installInDir   [ 'install', '--mutex', 'network:42424', '--non-interactive' ] ]
+170 silly installInDir cleanup G:\project\yarn-sample-app\packages\sample1\package.json
+171 silly renameSync [ 'G:\\project\\yarn-sample-app\\packages\\sample1\\package.json.lerna_backup',
+171 silly renameSync   'G:\\project\\yarn-sample-app\\packages\\sample1\\package.json' ]
+172 verbose installed leaf sample1
+173 error execute callback with error
+174 error Error: Command failed: yarn install --mutex network:42424 --non-interactive
+174 error error Couldn't find package "child-app" on the "npm" registry.
+174 error [1/4] Resolving packages...
+174 error info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+174 error
+174 error     at Promise.all.then.arr (G:\project\yarn-sample-app\node_modules\execa\index.js:236:11)
+174 error     at <anonymous>
